@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m-site</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="h1container">
+        <h1 class="h1">M-site</h1>
+    </div>
+    <div class="bookcontainer">
+        <div class="bookconchild">
+            <h1 style="color:rgb(241, 184, 69);">Book</h1>
+            <h4 style="color: rgb(0, 0, 0); margin: 0;">Stroy writter</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus similique, fuga quos rem nemo eos
+                hic porro temporibus vero perferendis minus neque vel possimus nesciunt! Illum tempore reiciendis fugit
+                debitis!</p>
+            <button class="btn" onclick="removeitem(event)">remove</button>
+
+        </div>
+
+        <div class="backgrond"></div>
+        <div class="inputbox">
+            <h1>Add Items</h1>
+            <form>
+                <input type="text" placeholder="add book" id="inbook">
+                <input type="text" placeholder="add book name" id="inadd">
+                <textarea placeholder="book discription" id="text"></textarea>
+                <button id="btnadd">add</button>
+                <button id="btncancel">cancel</button>
+            </form>
+        </div>
+
+
+        <button class="btnplus">+</button>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
