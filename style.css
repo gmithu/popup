@@ -26,11 +26,23 @@ body {
 
 .bookcontainer {
     padding: 20px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    
-    
-    
+
+
+
+}
+
+#divc {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+
+
+
+
 }
 
 .bookconchild {
@@ -44,8 +56,8 @@ body {
     flex-direction: column;
     margin: 20px;
     vertical-align: top;
-    
-    
+
+
 }
 
 .btn {
@@ -54,7 +66,7 @@ body {
     width: 72px;
     color: rgb(139, 22, 22);
     background-color: rgb(184, 189, 189);
-    
+
 
 }
 
@@ -108,6 +120,7 @@ body {
     font-size: larger;
     border-bottom: 3px solid gray;
 
+
 }
 
 .inputbox textarea {
@@ -135,11 +148,14 @@ body {
 
 .inputbox input:focus {
     outline: none;
+
 }
 
 .inputbox textarea:focus {
     outline: none;
 }
+
+
 
 .btnn {
     color: red;
@@ -148,5 +164,5 @@ body {
     width: 72px;
     color: rgb(139, 22, 22);
     background-color: rgb(184, 189, 189);
-    
+
 }
